@@ -15,7 +15,10 @@ body {
     width: 100%;
     overflow: hidden;
 }
-
+.scrollable-column {
+    overflow-y: auto;
+    height: 100vh;
+}
 .has-background {
     background-size: cover;
     background-position: center;
