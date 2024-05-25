@@ -1,8 +1,8 @@
 {
+  "homepage": "https://fsfetcustudy.github.io/fsfetcustudy.github.io",
   "name": "sfetcustudy",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://fsfetcustudy.github.io/fsfetcustudy.github.io",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
