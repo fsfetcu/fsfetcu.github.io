@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router basename="/fsfetcustudy.github.io">
+    <Router basename="fsfetcustudy.github.io">
       <App />
     </Router>
   </React.StrictMode>,
