@@ -5,9 +5,9 @@ import App from './App';
 import { BrowserRouter as Router } from 'react-router-dom';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
+ReactDOM(
   <React.StrictMode>
-    <Router basename="fsfetcustudy.github.io">
+    <Router basename="/fsfetcustudy.github.io">
       <App />
     </Router>
   </React.StrictMode>,
