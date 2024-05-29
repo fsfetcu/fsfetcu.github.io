@@ -10,7 +10,7 @@ const root = createRoot(container); // createRoot(container!) if you use TypeScr
 
 root.render(
   <React.StrictMode>
-    <Router basename="/fsfetcu.github.io">
+    <Router>
       <App />
     </Router>
   </React.StrictMode>
