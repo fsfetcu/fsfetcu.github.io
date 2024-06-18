@@ -4,10 +4,6 @@ import NavBar from './NavBar';
 import Home from './components/Home';
 import Math from './components/Math';
 import Physics from './components/Physics';
-import InnerProduct from './components/Math/InnerProduct';
-import Operators from './components/Math/Operators';
-import Lagrangian from './components/Physics/Lagrangian';
-import SolidState from './components/Physics/SolidState';
 import WorkInProgress from './components/WorkInProgress';
 import './index.css';
 
@@ -23,11 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/math" element={<Math />} />
-            <Route path="/math/innerproduct" element={<InnerProduct />} />
-            <Route path="/math/operators" element={<Operators />} />
             <Route path="/physics" element={<Physics />} />
-            <Route path="/physics/lagrangian" element={<Lagrangian />} />
-            <Route path="/physics/solidstate" element={<SolidState />} />
             <Route path="/work-in-progress" element={<WorkInProgress />} />
           </Routes>
         </main>
